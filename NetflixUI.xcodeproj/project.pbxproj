@@ -11,6 +11,20 @@
 		A4C1247E2C17F9EB00685CBA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C1247D2C17F9EB00685CBA /* ContentView.swift */; };
 		A4C124802C17F9EC00685CBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4C1247F2C17F9EC00685CBA /* Assets.xcassets */; };
 		A4C124832C17F9EC00685CBA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4C124822C17F9EC00685CBA /* Preview Assets.xcassets */; };
+		A4C1248A2C17FF9500685CBA /* Logo.json in Resources */ = {isa = PBXBuildFile; fileRef = A4C124892C17FF9500685CBA /* Logo.json */; };
+		A4C1248D2C1800EE00685CBA /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = A4C1248C2C1800EE00685CBA /* Lottie */; };
+		A4C124912C18013100685CBA /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C124902C18013100685CBA /* SplashScreen.swift */; };
+		A4C124962C18037400685CBA /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C124952C18037400685CBA /* AppData.swift */; };
+		A4C124982C18056700685CBA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C124972C18056700685CBA /* MainView.swift */; };
+		A4C1249A2C1805C000685CBA /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C124992C1805C000685CBA /* CustomTabBar.swift */; };
+		A4C1249C2C18060400685CBA /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C1249B2C18060400685CBA /* Tab.swift */; };
+		A4C1249F2C18090E00685CBA /* NoAnimationButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C1249E2C18090E00685CBA /* NoAnimationButtonStyle.swift */; };
+		A4C1F86C2C28A74900F416D2 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C1F86B2C28A74900F416D2 /* Profile.swift */; };
+		A4C1F86E2C28A80200F416D2 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C1F86D2C28A80200F416D2 /* ProfileView.swift */; };
+		A4C1F8702C28A99300F416D2 /* ProfileCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C1F86F2C28A99300F416D2 /* ProfileCardView.swift */; };
+		A4C1F8722C28AB7800F416D2 /* RectAnchorKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C1F8712C28AB7800F416D2 /* RectAnchorKey.swift */; };
+		A4C1F8742C28ADF700F416D2 /* AnimationLayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C1F8732C28ADF700F416D2 /* AnimationLayerView.swift */; };
+		A4C1F8762C28B0BE00F416D2 /* NetflixLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C1F8752C28B0BE00F416D2 /* NetflixLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +33,19 @@
 		A4C1247D2C17F9EB00685CBA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A4C1247F2C17F9EC00685CBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4C124822C17F9EC00685CBA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A4C124892C17FF9500685CBA /* Logo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Logo.json; sourceTree = "<group>"; };
+		A4C124902C18013100685CBA /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		A4C124952C18037400685CBA /* AppData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
+		A4C124972C18056700685CBA /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		A4C124992C1805C000685CBA /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		A4C1249B2C18060400685CBA /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		A4C1249E2C18090E00685CBA /* NoAnimationButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoAnimationButtonStyle.swift; sourceTree = "<group>"; };
+		A4C1F86B2C28A74900F416D2 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		A4C1F86D2C28A80200F416D2 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		A4C1F86F2C28A99300F416D2 /* ProfileCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCardView.swift; sourceTree = "<group>"; };
+		A4C1F8712C28AB7800F416D2 /* RectAnchorKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectAnchorKey.swift; sourceTree = "<group>"; };
+		A4C1F8732C28ADF700F416D2 /* AnimationLayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationLayerView.swift; sourceTree = "<group>"; };
+		A4C1F8752C28B0BE00F416D2 /* NetflixLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4C1248D2C1800EE00685CBA /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +79,10 @@
 		A4C1247A2C17F9EB00685CBA /* NetflixUI */ = {
 			isa = PBXGroup;
 			children = (
+				A4C124922C18014000685CBA /* Utils */,
+				A4C1248E2C1800FA00685CBA /* Model */,
+				A4C124942C18034700685CBA /* ViewModel */,
+				A4C1248F2C18010F00685CBA /* View */,
 				A4C1247B2C17F9EB00685CBA /* NetflixUIApp.swift */,
 				A4C1247D2C17F9EB00685CBA /* ContentView.swift */,
 				A4C1247F2C17F9EC00685CBA /* Assets.xcassets */,
@@ -65,6 +97,63 @@
 				A4C124822C17F9EC00685CBA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A4C1248E2C1800FA00685CBA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A4C1249B2C18060400685CBA /* Tab.swift */,
+				A4C1F86B2C28A74900F416D2 /* Profile.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A4C1248F2C18010F00685CBA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A4C1249D2C1808EF00685CBA /* Helpers */,
+				A4C124902C18013100685CBA /* SplashScreen.swift */,
+				A4C124972C18056700685CBA /* MainView.swift */,
+				A4C124992C1805C000685CBA /* CustomTabBar.swift */,
+				A4C1F86D2C28A80200F416D2 /* ProfileView.swift */,
+				A4C1F86F2C28A99300F416D2 /* ProfileCardView.swift */,
+				A4C1F8732C28ADF700F416D2 /* AnimationLayerView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A4C124922C18014000685CBA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A4C124932C18014A00685CBA /* Lottie */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A4C124932C18014A00685CBA /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				A4C124892C17FF9500685CBA /* Logo.json */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
+		A4C124942C18034700685CBA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A4C124952C18037400685CBA /* AppData.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A4C1249D2C1808EF00685CBA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A4C1249E2C18090E00685CBA /* NoAnimationButtonStyle.swift */,
+				A4C1F8712C28AB7800F416D2 /* RectAnchorKey.swift */,
+				A4C1F8752C28B0BE00F416D2 /* NetflixLoader.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +172,9 @@
 			dependencies = (
 			);
 			name = NetflixUI;
+			packageProductDependencies = (
+				A4C1248C2C1800EE00685CBA /* Lottie */,
+			);
 			productName = NetflixUI;
 			productReference = A4C124782C17F9EB00685CBA /* NetflixUI.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +203,9 @@
 				Base,
 			);
 			mainGroup = A4C1246F2C17F9EB00685CBA;
+			packageReferences = (
+				A4C1248B2C1800EE00685CBA /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = A4C124792C17F9EB00685CBA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +222,7 @@
 			files = (
 				A4C124832C17F9EC00685CBA /* Preview Assets.xcassets in Resources */,
 				A4C124802C17F9EC00685CBA /* Assets.xcassets in Resources */,
+				A4C1248A2C17FF9500685CBA /* Logo.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +233,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4C1F8722C28AB7800F416D2 /* RectAnchorKey.swift in Sources */,
+				A4C124912C18013100685CBA /* SplashScreen.swift in Sources */,
+				A4C1249F2C18090E00685CBA /* NoAnimationButtonStyle.swift in Sources */,
+				A4C1F86E2C28A80200F416D2 /* ProfileView.swift in Sources */,
+				A4C1F8742C28ADF700F416D2 /* AnimationLayerView.swift in Sources */,
 				A4C1247E2C17F9EB00685CBA /* ContentView.swift in Sources */,
+				A4C1F8702C28A99300F416D2 /* ProfileCardView.swift in Sources */,
+				A4C1F8762C28B0BE00F416D2 /* NetflixLoader.swift in Sources */,
 				A4C1247C2C17F9EB00685CBA /* NetflixUIApp.swift in Sources */,
+				A4C124982C18056700685CBA /* MainView.swift in Sources */,
+				A4C1249A2C1805C000685CBA /* CustomTabBar.swift in Sources */,
+				A4C124962C18037400685CBA /* AppData.swift in Sources */,
+				A4C1F86C2C28A74900F416D2 /* Profile.swift in Sources */,
+				A4C1249C2C18060400685CBA /* Tab.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +452,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A4C1248B2C1800EE00685CBA /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.4.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A4C1248C2C1800EE00685CBA /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A4C1248B2C1800EE00685CBA /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A4C124702C17F9EB00685CBA /* Project object */;
 }

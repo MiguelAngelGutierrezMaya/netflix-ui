@@ -8,14 +8,31 @@
 import SwiftUI
 
 struct ContentView: View {
+    var appData: AppData = .init()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        ZStack {
+            /// First view after splash screen
+            MainView()
+            
+            if appData.hideMainView {
+                Rectangle()
+                    .fill(.black)
+                    .ignoresSafeArea()
+            }
+            
+            ZStack {
+                if appData.showProfileView {
+                    ProfileView()
+                }
+            }
+            
+            if !appData.isSplashFinished {
+                SplashScreen()
+            }
         }
-        .padding()
+        .environment(appData)
+        .preferredColorScheme(.dark)
     }
 }
 
